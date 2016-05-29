@@ -3,7 +3,8 @@
 class NewsController extends Controller {
 
     public function viewAction() {
-    	//加一个注释
+    	//加两个测试
+    	$str = 'hello world';
     	$arr = array(26,8,57,588,457,6684,'a'=>2);
     	array_push($arr);
     	
